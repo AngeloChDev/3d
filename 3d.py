@@ -11,7 +11,7 @@ def update():
     cube.x += held_keys['s'] * 0.2
     cube.x -= held_keys['a'] * 0.2
     cube.y += held_keys['q'] * 0.2
-    cube.y -= held_keys['d'] * 0.2
+    cube.y -= held_keys['y'] * 0.2
     
 app.run()
     
